@@ -2,17 +2,18 @@
   "name": "MiniSuite",
   "main": "./lib/minisuite",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "minisuite:toggle"
-  },
-  "repository": "https://github.com/Dekker1/minisuite",
+  "description": "Bringing an MiniZinc IDE experience to atom",
+  "keywords": ["MiniZinc", "IDE", "linter", "autocompletion"],
+  "repository": "https://github.com/Dekker1/atom-minisuite",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-  }
+    "atom-package-deps": "^4.3.1"
+  },
+  "package-deps": [
+    "language-mzn",
+    "linter-mzn"
+  ]
 }
