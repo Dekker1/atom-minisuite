@@ -1,9 +1,14 @@
 {
   "name": "MiniSuite",
   "main": "./lib/minisuite",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Bringing an MiniZinc IDE experience to atom",
-  "keywords": ["MiniZinc", "IDE", "linter", "autocompletion"],
+  "keywords": [
+    "MiniZinc",
+    "IDE",
+    "linter",
+    "autocompletion"
+  ],
   "repository": "https://github.com/Dekker1/atom-minisuite",
   "license": "MIT",
   "engines": {
